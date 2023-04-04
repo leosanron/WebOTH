@@ -1,3 +1,5 @@
+/* #F831FF */
+
 body {
 	font-family: Arial, sans-serif;
 	background-image: url(Dekstop.png);
@@ -9,14 +11,13 @@ header {
 	color: #fff;
 	padding: 0px 0;
 	margin-bottom: 8%;
-	/* background-color: #850e7b0c; */
+	margin-top: 1px;
 }
 
 header span {
 	color: #cc2ea5;
 	padding: 0px 0;
 	margin-bottom: 8%;
-	/* background-color: #850e7b0c; */
 }
 
 nav ul li a span {
@@ -27,10 +28,8 @@ nav ul li a span {
 
   }
 
-
-
 nav ul img {
-	width: 10%;
+	width: 15%;
 	height: auto;
 
 }
@@ -289,8 +288,10 @@ BENEFICIOS */
 }
 
 .bloqueben img {
+	
     margin-left: auto;
-    max-width: 40%;
+	margin-right: 5%;
+	max-width: 40%;
     height: auto;
 }
 
