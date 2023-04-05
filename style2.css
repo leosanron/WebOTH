@@ -251,9 +251,9 @@ CARRUSEL */
 	cursor: pointer;
 	margin-bottom: 4%;
 }
-
-
-
+.card-body a:hover button {
+	filter: brightness(0.8);
+  }
 
 
 /* BENEFICIOS 
@@ -362,6 +362,9 @@ CONTACTANOS */
 	cursor: pointer;
 	margin-bottom: 4%;
 }
+#Contactanos a:hover button {
+	filter: brightness(0.5);
+  }
 
 #Contactanos label {
 	color:  black;
@@ -399,3 +402,53 @@ form input[type="submit"] {
 	cursor: pointer;
 	width: 100%;
 }
+
+
+
+/* 
+footer
+FOOTER */
+
+footer {
+	padding: 0px;
+	margin-bottom: 50px;
+  }
+
+  
+  .footer-container {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 800px;
+	margin: 0 auto;
+  }
+  .footer-container p {
+	margin-right: 100px;
+  }
+  
+  .social-icons {
+	display: flex;
+	align-items: center;
+  }
+  
+  .social-icons a {
+	margin-right: 20px;
+	width: 30px;
+	height: 30px;
+	display: flex;
+  }
+  
+  .social-icons a img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	transition: all 0.3s ease;
+  }
+  
+  .social-icons a:hover img {
+	filter: brightness(0.5);
+  }
+  
+  
+  
+  
