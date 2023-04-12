@@ -16,7 +16,7 @@ header {
 
 header span {
 	color: #cc2ea5;
-	padding: 0px 0;
+	padding: 0px 0px;
 	margin-bottom: 8%;
 }
 
@@ -81,9 +81,9 @@ footer {
 	text-align: center;
 }
 
-
-
-
+.number {
+    padding: 0 80px; /* Agrega un espacio de 10px a la izquierda y derecha del número */
+  }
 
 
 h1 {
@@ -113,8 +113,7 @@ header {
 .header-info {
 	display: flex; /* Alinear los elementos en línea horizontal */
 	justify-content: center; /* centra la info */
-	font-size: 2rem;
-	width: 100%;
+	font-size: 30rem;
 	color: #faf7fa;
 }
 
@@ -154,7 +153,7 @@ ABOUT US */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 55%;
+	width: 1000px;
 	margin: 0 auto;
 	margin-bottom: 4%;
 }
@@ -198,7 +197,7 @@ CARRUSEL */
 	margin-bottom: 1%;
 	text-align: center;
 	font-size: 3rem;
-	color: #faf7fa;
+	color: #fafaf7;
     font-size: 2.5rem;
 }
 
@@ -256,6 +255,9 @@ CARRUSEL */
   }
 
 
+
+
+
 /* BENEFICIOS 
 BENEFICIOS */
 
@@ -272,12 +274,11 @@ BENEFICIOS */
 .grupo1, .grupo2 {
 	display: flex;
 	flex-wrap: wrap;
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
 }
 
 .bloqueben {
-    /* border: 2px solid #850e7b; */
     padding: 10px;
     margin: 10px;
     width: calc(33.33% - 20px); /* establece el ancho de cada bloque em 33% deñ amcho del contenedor menos el margen de la derecha e izquierda de cada bloque que seria 20 */
