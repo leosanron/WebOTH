@@ -1,5 +1,18 @@
 /* #F831FF */
 
+@media screen and (min-width: 768px) {
+	body {
+	  font-size: 86px;
+	}
+  }
+
+ /* Estilos para dispositivos móviles */
+ @media screen and (max-width: 767px) {
+	body {
+	  font-size: 14px;
+	}
+  }
+
 body {
 	font-family: Arial, sans-serif;
 	background-image: url(Dekstop.png);
@@ -451,5 +464,20 @@ footer {
   }
   
   
+  @media screen and (min-width: 768px) {
+	h10 {
+	  font-size: 86px;
+	  color: #3708a4;
+	}
+  }
+
+ /* Estilos para dispositivos móviles */
+ @media screen and (max-width: 767px) {
+	h10 {
+	  font-size: 14px;
+	  color: #14cf21;
+	}
+  }
+
   
   
