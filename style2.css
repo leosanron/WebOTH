@@ -124,7 +124,7 @@
 		justify-content: center;
 		flex-basis: 10%; /* AJUSTA LOS VALORES CON RESPECTO AL TEXTO DE H1¡¡¡¡¡¡ */
 		text-align: center;
-		margin-left: 20px; /* Añadimos un margen a la izquierda de cada li, excepto el primer elemento */
+		margin-left: 2%; /* Añadimos un margen a la izquierda de cada li, excepto el primer elemento */
 	}
 
 	.header-info li:first-child {
@@ -582,7 +582,7 @@
 		justify-content: center;
 		flex-basis: 10%; /* AJUSTA LOS VALORES CON RESPECTO AL TEXTO DE H1¡¡¡¡¡¡ */
 		text-align: center;
-		margin-left: 20px; /* Añadimos un margen a la izquierda de cada li, excepto el primer elemento */
+		margin-left: 2%; /* Añadimos un margen a la izquierda de cada li, excepto el primer elemento */
 	}
 
 	.header-info li:first-child {
