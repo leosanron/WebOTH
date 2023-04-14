@@ -458,6 +458,457 @@
 
  /* Estilos para dispositivos móviles */
  @media screen and (max-width: 767px) {
+	body {
+		font-family: Arial, sans-serif;
+		background-image: url(Dekstop.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	header {
+		color: #fff;
+		padding: 0px 0;
+		margin-bottom: 8%;
+		margin-top: 1px;
+	}
+
+	header span {
+		color: #cc2ea5;
+		padding: 0px 0px;
+		margin-bottom: 8%;
+	}
+
+	nav ul li a span {
+		background-color: #cc2ea5;
+		color: #fff;
+		padding: 5px;
+		border-radius: 5px;
+
+	}
+
+	nav ul img {
+		width: 15%;
+		height: auto;
+
+	}
+
+	nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	nav ul li {
+		display: inline-block;
+		margin-right: 20px;
+		margin-bottom: 8%;
+	}
+
+	nav ul li:last-child {
+		margin-right: 0;
+	}
+
+	nav ul li a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	section {
+		padding: 50px 20px;
+	}
+
+	section h2 {
+		margin-top: 0;
+	}
+
+	section ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	section ul li {
+		margin-bottom: 10px;
+	}
+
+
+	footer {
+
+		color: #fff;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.number {
+		padding: 0 80px; /* Agrega un espacio de 10px a la izquierda y derecha del número */
+	}
+
+
+	h1 {
+		text-align: center;
+		margin: 0 2rem; /* Añade un margen de 200 píxeles a los lados */
+		font-size: 3rem;
+		/* font-size: 20px; */ 
+		color: #faf7fa;
+		font-family: sans-serif;
+		margin-top: 1%;
+	}
+
+	h1 span {
+		color: #cc2ea5;
+
+	}
+
+
+
+
+	/* textos del heder  */
+	header {
+		justify-content: flex-end; /* Alineamos los elementos a los lados */
+		align-items: center; /* Centramos verticalmente los elementos */
+	}
+
+	.header-info {
+		display: flex; /* Alinear los elementos en línea horizontal */
+		justify-content: center; /* centra la info */
+		font-size: 30rem;
+		color: #faf7fa;
+	}
+
+	.header-info li {
+		display: flex; /* Para alinear los elementos horizontalmente dentro de cada li */
+		flex-direction: column; /* Para poner el número debajo del texto */
+		align-items: center; /* Centramos los elementos verticalmente */
+		justify-content: center;
+		flex-basis: 10%; /* AJUSTA LOS VALORES CON RESPECTO AL TEXTO DE H1¡¡¡¡¡¡ */
+		text-align: center;
+		margin-left: 20px; /* Añadimos un margen a la izquierda de cada li, excepto el primer elemento */
+	}
+
+	.header-info li:first-child {
+		margin-left: 0; /* Quitamos el margen al primer elemento */
+	}
+
+	.header-info h3 {
+		font-size: 1rem;
+		margin: 0; /* Quitamos el margin del texto */
+	}
+
+	.header-info .number {
+		font-size: 3rem;; /* Ajustamos el tamaño del número */
+		font-weight: bold; /* Ponemos el número en negrita */
+		margin-top: 5px; /* Añadimos un pequeño margen encima del número */
+	}
+
+
+
+
+
+	/* ABOUT US 
+	ABOUT US */
+
+	#about-us {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 1000px;
+		margin: 0 auto;
+		margin-bottom: 4%;
+	}
+	
+	#about-us img {
+		margin-top: 20px;
+	}
+
+	#about-us h2 {
+		font-size: 2.5rem;
+		color: #fcf5f5;
+		font-weight: bold;
+	}
+
+	#about-us p {
+		font-size: 2rem;
+		color:  #fcf5f5;
+		text-align: justify;
+	}
+
+	#about-us p span {
+		font-size: 2rem;
+		color:  #cc2ea5;
+	}
+
+
+
+
+
+	/* CARRUSEL 
+	CARRUSEL */
+
+	#Carrusel {
+		background-image: url(Dekstop\ inver.png);
+		background-size: cover;
+		margin-bottom: 3%;
+	}
+
+	#Carrusel h2 {
+		margin-top: 2%;
+		margin-bottom: 1%;
+		text-align: center;
+		font-size: 3rem;
+		color: #fafaf7;
+		font-size: 2.5rem;
+	}
+
+	#Carrusel .card{
+		background-color: rgba(156, 22, 197, 0.048);
+	}
+
+	#Carrusel .card-body{
+		border-left: 3px solid  #cc2ea5;
+		border-image: linear-gradient(to bottom, transparent 10%,  #cc2ea5 10%,  #cc2ea5 90%,transparent 90%); /* Gradiente para el borde */
+		border-image-slice: 1; /* Indica que la imagen del borde debe ser cortada en una sola rebanada */
+
+		
+	}
+
+	#Carrusel .container{
+		margin-bottom: 3%;
+	}
+	.card h5{
+		color: aliceblue;
+		font-size: 1.5rem;
+	}
+
+	.card h6{
+		color: aliceblue;
+		font-size: 1rem;
+	}
+
+	.card h6 span{
+		color:  rgb(218, 52, 182);
+		font-size: 1.5rem;
+
+	}
+
+	.card-body p{
+		color:  aliceblue;
+		font-size: 1rem;
+
+	}
+	#Carrusel button {
+		background-color:  #cc2ea5;
+		color: white;
+		border-radius: 10px;
+		box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+		padding: 10px 20px;
+		font-size: 16px;
+		font-weight: bold;
+		text-decoration: none;
+		border: none;
+		cursor: pointer;
+		margin-bottom: 4%;
+	}
+	.card-body a:hover button {
+		filter: brightness(0.8);
+	}
+
+
+
+
+
+	/* BENEFICIOS 
+	BENEFICIOS */
+
+	#Beneficios {
+		margin-top: 0px;
+	}
+	#Beneficios h2 {
+		margin-top: 0;
+		text-align: center;
+		color:  #f5f0f0;
+		font-size: 2.5rem;
+	}
+
+	.grupo1, .grupo2 {
+		display: flex;
+		flex-wrap: wrap;
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.bloqueben {
+		padding: 10px;
+		margin: 10px;
+		width: calc(33.33% - 20px); /* establece el ancho de cada bloque em 33% deñ amcho del contenedor menos el margen de la derecha e izquierda de cada bloque que seria 20 */
+		box-sizing: border-box;
+		display: flex;
+		align-items: center;
+		border-radius: 10px;
+	}
+
+	.bloqueben img {
+		
+		margin-left: auto;
+		margin-right: 5%;
+		max-width: 40%;
+		height: auto;
+	}
+
+	.bloqueben .contenido {
+		margin-right: auto;
+		width: 50%;
+		padding-right: 20px;
+		box-sizing: border-box;
+	}
+
+	.bloqueben h3 {
+		margin-top: 0;
+		color:  #f3eeee;
+		font-size: 1rem;
+	}
+
+	.bloqueben p {
+		margin-bottom: 0;
+		color:  #f3eeee;
+		font-size: 1rem;
+	}
+
+
+
+
+
+
+	/* CONTACTANOS 
+	CONTACTANOS */
+
+	#Contactanos {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 auto;
+		margin-bottom: 4%;
+		background-color: #cc2ea5;
+	}
+
+
+	#Contactanos h2 {
+		font-size: 2.5rem;
+		color: #fcf5f5;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 1%;
+	}
+
+	#Contactanos h3 {
+		font-size: 1.5rem;
+		color: #020202;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 1%;
+	}
+
+
+	#Contactanos button {
+		background-color: black;
+		color: white;
+		border-radius: 10px;
+		box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+		padding: 10px 20px;
+		font-size: 16px;
+		font-weight: bold;
+		text-decoration: none;
+		border: none;
+		cursor: pointer;
+		margin-bottom: 4%;
+	}
+	#Contactanos a:hover button {
+		filter: brightness(0.5);
+	}
+
+	#Contactanos label {
+		color:  black;
+		font-size: 1.5rem;
+	}
+
+
+	form label {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	form input[type="text"], form input[type="email"], form textarea {
+		display: block;
+		color: #020202;
+		width: 400px;
+		padding: 10px;
+		margin-bottom: 20px;
+		border: none;
+		border-radius: 5px;
+		background-color: #f5f5f5;
+	}
+
+	form textarea {
+		height: 100px;
+		resize: none;
+	}
+
+	form input[type="submit"] {
+		background-color: #070707;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		padding: 10px 20px;
+		cursor: pointer;
+		width: 100%;
+	}
+
+
+
+	/* 
+	footer
+	FOOTER */
+
+	footer {
+		padding: 0px;
+		margin-bottom: 50px;
+	}
+
+	
+	.footer-container {
+		display: inline-flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+	.footer-container p {
+		margin-right: 100px;
+	}
+	
+	.social-icons {
+		display: flex;
+		align-items: center;
+	}
+	
+	.social-icons a {
+		margin-right: 20px;
+		width: 30px;
+		height: 30px;
+		display: flex;
+	}
+	
+	.social-icons a img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		transition: all 0.3s ease;
+	}
+	
+	.social-icons a:hover img {
+		filter: brightness(0.5);
+	}
+
+
 	h10 {
 	  font-size: 1vh;
 	  color: #14cf21;
