@@ -627,7 +627,7 @@
 	}
 
 	#about-us p {
-		font-size: 2rem;
+		font-size: 1rem;
 		color:  #fcf5f5;
 		text-align: justify;
 	}
@@ -911,7 +911,7 @@
 
 	h10 {
 	  font-size: 1vh;
-	  color: #14cf21;
+	  color: #110a8f;
 	}
   }
 
