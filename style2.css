@@ -113,7 +113,6 @@
 	.header-info {
 		display: flex; /* Alinear los elementos en línea horizontal */
 		justify-content: center; /* centra la info */
-		font-size: 30rem;
 		color: #faf7fa;
 	}
 
@@ -122,9 +121,9 @@
 		flex-direction: column; /* Para poner el número debajo del texto */
 		align-items: center; /* Centramos los elementos verticalmente */
 		justify-content: center;
-		flex-basis: 10%; /* AJUSTA LOS VALORES CON RESPECTO AL TEXTO DE H1¡¡¡¡¡¡ */
+		flex-basis: 18%; /* AJUSTA LOS VALORES CON RESPECTO AL TEXTO DE H1¡¡¡¡¡¡ */
 		text-align: center;
-		margin-left: 2%; /* Añadimos un margen a la izquierda de cada li, excepto el primer elemento */
+		 /* Añadimos un margen a la izquierda de cada li, excepto el primer elemento */
 	}
 
 	.header-info li:first-child {
@@ -572,6 +571,7 @@
 		display: flex; /* Alinear los elementos en línea horizontal */
 		justify-content: center; /* centra la info */
 		font-size: 30rem;
+		width: 85% ;
 		color: #faf7fa;
 	}
 
@@ -580,9 +580,9 @@
 		flex-direction: column; /* Para poner el número debajo del texto */
 		align-items: center; /* Centramos los elementos verticalmente */
 		justify-content: center;
-		flex-basis: 10%; /* AJUSTA LOS VALORES CON RESPECTO AL TEXTO DE H1¡¡¡¡¡¡ */
+		flex-basis: 18%; /* AJUSTA LOS VALORES CON RESPECTO AL TEXTO DE H1¡¡¡¡¡¡ */
 		text-align: center;
-		margin-left: 2%; /* Añadimos un margen a la izquierda de cada li, excepto el primer elemento */
+		 /* Añadimos un margen a la izquierda de cada li, excepto el primer elemento */
 	}
 
 	.header-info li:first-child {
@@ -611,7 +611,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 100%;
+		width: 85%;
 		margin: 0 auto;
 		margin-bottom: 4%;
 	}
@@ -627,13 +627,13 @@
 	}
 
 	#about-us p {
-		font-size: 1rem;
+		font-size: 1.5rem;
 		color:  #fcf5f5;
 		text-align: justify;
 	}
 
 	#about-us p span {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		color:  #cc2ea5;
 	}
 
