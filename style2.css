@@ -134,6 +134,13 @@
 		font-weight: bold; /* Ponemos el número en negrita */
 		margin-top: 5px; /* Añadimos un pequeño margen encima del número */
 	}
+	.header-info {
+		flex-wrap: wrap;
+	  }
+	  
+	  .header-info li {
+		width: 50%;
+	  }
 
 
 
