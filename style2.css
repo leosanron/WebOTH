@@ -620,19 +620,19 @@
 	}
 
 	#about-us h2 {
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 		color: #fcf5f5;
 		font-weight: bold;
 	}
 
 	#about-us p {
-		font-size: 1.5rem;
+		font-size: 1rem;
 		color:  #fcf5f5;
 		text-align: justify;
 	}
 
 	#about-us p span {
-		font-size: 1.5rem;
+		font-size: 1rem;
 		color:  #cc2ea5;
 	}
 
