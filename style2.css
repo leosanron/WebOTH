@@ -89,7 +89,7 @@
 	h1 {
 		text-align: center;
 		margin: 0 2rem; /* Añade un margen de 200 píxeles a los lados */
-		font-size: 3rem;
+		font-size: 2.5rem;
 		/* font-size: 20px; */ 
 		color: #faf7fa;
 		font-family: sans-serif;
@@ -473,13 +473,13 @@
 	nav ul li a span {
 		background-color: #cc2ea5;
 		color: #fff;
-		padding: 5px;
+		padding: 3px;
 		border-radius: 5px;
 
 	}
 
 	nav ul img {
-		width: 15%;
+		width: 25%;
 		height: auto;
 
 	}
@@ -492,7 +492,7 @@
 
 	nav ul li {
 		display: inline-block;
-		margin-right: 20px;
+		margin-right: 2%;
 		margin-bottom: 8%;
 	}
 
@@ -502,6 +502,7 @@
 
 	nav ul li a {
 		color: #fff;
+		font-size: 0.5rem;
 		text-decoration: none;
 	}
 
@@ -536,19 +537,19 @@
 	}
 
 
-	h1 {
+	header h1 {
 		text-align: center;
 		margin: 0 2rem; /* Añade un margen de 200 píxeles a los lados */
-		font-size: 2rem;
+		font-size: 1.5rem;
 		/* font-size: 20px; */ 
 		color: #faf7fa;
 		font-family: sans-serif;
-		margin-top: 1%;
+		margin-top: 10%;
+		margin-bottom: 10%;
 	}
 
-	h1 span {
+	header h1 span {
 		color: #cc2ea5;
-
 	}
 	.header-info {
 		flex-wrap: wrap;
@@ -590,7 +591,7 @@
 	}
 
 	.header-info h3 {
-		font-size: 1rem;
+		font-size: 0.8rem;
 		margin: 0; /* Quitamos el margin del texto */
 	}
 
@@ -613,6 +614,7 @@
 		align-items: center;
 		width: 85%;
 		margin: 0 auto;
+		margin-top: 10%;
 		margin-bottom: 4%;
 	}
 	
@@ -624,6 +626,7 @@
 		font-size: 1.5rem;
 		color: #fcf5f5;
 		font-weight: bold;
+		text-align: center;
 	}
 
 	#about-us p {
@@ -656,7 +659,7 @@
 		text-align: center;
 		font-size: 3rem;
 		color: #fafaf7;
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 
 	#Carrusel .card{
@@ -726,7 +729,8 @@
 		margin-top: 0;
 		text-align: center;
 		color:  #f5f0f0;
-		font-size: 2.5rem;
+		font-size: 2rem;
+		margin-bottom: 10%;
 	}
 
 	.grupo1, .grupo2 {
@@ -739,38 +743,38 @@
 	.bloqueben {
 		padding: 10px;
 		margin: 10px;
-		width: calc(33.33% - 20px); /* establece el ancho de cada bloque em 33% deñ amcho del contenedor menos el margen de la derecha e izquierda de cada bloque que seria 20 */
+		 /* establece el ancho de cada bloque em 33% deñ amcho del contenedor menos el margen de la derecha e izquierda de cada bloque que seria 20 */
 		box-sizing: border-box;
-		display: flex;
+		display: contents;
 		align-items: center;
-		border-radius: 10px;
 	}
 
 	.bloqueben img {
 		
 		margin-left: auto;
-		margin-right: 5%;
-		max-width: 40%;
-		height: auto;
+		margin-right: 10%;
+		max-width: 20%;
+		height: 40%;
 	}
 
 	.bloqueben .contenido {
 		margin-right: auto;
-		width: 50%;
+		width: 70%;
 		padding-right: 20px;
 		box-sizing: border-box;
+		margin-bottom: 10%;
 	}
 
 	.bloqueben h3 {
 		margin-top: 0;
 		color:  #f3eeee;
-		font-size: 1rem;
+		font-size: 0.8rem;
 	}
 
 	.bloqueben p {
 		margin-bottom: 0;
 		color:  #f3eeee;
-		font-size: 1rem;
+		font-size: 0.8rem;
 	}
 
 
@@ -792,7 +796,7 @@
 
 
 	#Contactanos h2 {
-		font-size: 2.5rem;
+		font-size: 1.8rem;
 		color: #fcf5f5;
 		font-weight: bold;
 		text-align: center;
@@ -820,6 +824,7 @@
 		border: none;
 		cursor: pointer;
 		margin-bottom: 4%;
+		margin-top: 5%;
 	}
 	#Contactanos a:hover button {
 		filter: brightness(0.5);
@@ -875,26 +880,20 @@
 
 	
 	.footer-container {
-		display: inline-flex;
-		justify-content: space-between;
+		display: block;
 		align-items: center;
-		max-width: 800px;
 		margin: 0 auto;
 	}
-	.footer-container p {
-		margin-right: 100px;
-	}
-	
+
 	.social-icons {
 		display: flex;
 		align-items: center;
+		justify-content: center;
+		margin-bottom: 5%;
 	}
 	
 	.social-icons a {
-		margin-right: 20px;
-		width: 30px;
-		height: 30px;
-		display: flex;
+		margin-right: 5%;
 	}
 	
 	.social-icons a img {
