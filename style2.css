@@ -546,7 +546,7 @@
 	h1 {
 		text-align: center;
 		margin: 0 2rem; /* Añade un margen de 200 píxeles a los lados */
-		font-size: 3rem;
+		font-size: 2rem;
 		/* font-size: 20px; */ 
 		color: #faf7fa;
 		font-family: sans-serif;
@@ -570,7 +570,6 @@
 	.header-info {
 		display: flex; /* Alinear los elementos en línea horizontal */
 		justify-content: center; /* centra la info */
-		font-size: 30rem;
 		width: 85% ;
 		color: #faf7fa;
 	}
