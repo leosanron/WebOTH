@@ -107,7 +107,7 @@
 	/* textos del heder  */
 	header {
 		justify-content: flex-end; /* Alineamos los elementos a los lados */
-		align-items: center; /* Centramos verticalmente los elementos */
+		align-items: first baseline; /* Centramos verticalmente los elementos */
 	}
 
 	.header-info {
@@ -119,15 +119,9 @@
 	.header-info li {
 		display: flex; /* Para alinear los elementos horizontalmente dentro de cada li */
 		flex-direction: column; /* Para poner el número debajo del texto */
-		align-items: center; /* Centramos los elementos verticalmente */
-		justify-content: center;
-		flex-basis: 18%; /* AJUSTA LOS VALORES CON RESPECTO AL TEXTO DE H1¡¡¡¡¡¡ */
+		/* flex-basis: 18%;  *//* AJUSTA LOS VALORES CON RESPECTO AL TEXTO DE H1¡¡¡¡¡¡ */
 		text-align: center;
 		 /* Añadimos un margen a la izquierda de cada li, excepto el primer elemento */
-	}
-
-	.header-info li:first-child {
-		margin-left: 0; /* Quitamos el margen al primer elemento */
 	}
 
 	.header-info h3 {
