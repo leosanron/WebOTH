@@ -29,7 +29,7 @@
 	}
 
 	nav ul img {
-		width: 15%;
+		width: 10%;
 		height: auto;
 
 	}
@@ -46,11 +46,7 @@
 		display: inline-block;
 		margin-right: 20px;
 	}
-
-	nav ul li:last-child {
-		margin-right: 0;
-	}
-
+	
 	nav ul li a {
 		color: #fff;
 		text-decoration: none;
@@ -94,7 +90,7 @@
 		/* font-size: 20px; */ 
 		color: #faf7fa;
 		font-family: sans-serif;
-		margin-top: 8%;
+		margin-top: 5%;
 	}
 
 	h1 span {
@@ -135,8 +131,6 @@
 		font-weight: bold; /* Ponemos el número en negrita */
 		margin-top: 5px; /* Añadimos un pequeño margen encima del número */
 	}
-
-
 
 
 	/* ABOUT US 
@@ -354,7 +348,7 @@
 		text-decoration: none;
 		border: none;
 		cursor: pointer;
-		margin-bottom: 4%;
+		margin-bottom: 2%;
 	}
 	#Contactanos a:hover button {
 		filter: brightness(0.5);
@@ -410,19 +404,18 @@
 
 	
 	.footer-container {
-		display: inline-flex;
+		display: block;
 		justify-content: space-between;
 		align-items: center;
 		max-width: 800px;
 		margin: 0 auto;
 	}
-	.footer-container p {
-		margin-right: 100px;
-	}
 	
 	.social-icons {
 		display: flex;
 		align-items: center;
+		justify-content: center;
+		margin-bottom: 2%;
 	}
 	
 	.social-icons a {
@@ -448,6 +441,15 @@
 		color: #d21b0d;
 	  }
 }
+
+
+
+
+
+
+
+
+
 
  /* Estilos para dispositivos móviles */
  @media screen and (max-width: 767px) {
@@ -546,7 +548,7 @@
 		/* font-size: 20px; */ 
 		color: #faf7fa;
 		font-family: sans-serif;
-		margin-top: 10%;
+		margin-top: 20%;
 		margin-bottom: 10%;
 	}
 
@@ -602,6 +604,22 @@
 		font-weight: bold; /* Ponemos el número en negrita */
 		margin-top: 5px; /* Añadimos un pequeño margen encima del número */
 	}
+	/* ESTATICO EL HEADER
+	ESTATICO EL HEADER */
+
+	header nav ul{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		z-index: 9999;
+	  }
+	  
+	  .content {
+		padding-top: 100px; /* Ajusta el valor según sea necesario para que no se superponga en la parte superior del encabezado */
+	  }
+
 
 
 
