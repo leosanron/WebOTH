@@ -365,7 +365,7 @@
 		margin-bottom: 5px;
 	}
 
-	form input[type="text"], form input[type="email"], form textarea {
+	form input[type="text"], form input[type="email"], form input[type="tel"], form textarea {
 		display: block;
 		color: #020202;
 		width: 400px;
@@ -377,7 +377,7 @@
 	}
 
 	form textarea {
-		height: 100px;
+		height: 80px;
 		resize: none;
 	}
 
@@ -389,7 +389,14 @@
 		padding: 10px 20px;
 		cursor: pointer;
 		width: 100%;
+		font-family: "Arial", sans-serif;
 	}
+
+	.form a:hover input[type="submit"]  {
+		filter: brightness(0.5);
+		
+	}
+
 
 
 
@@ -861,7 +868,7 @@
 		margin-bottom: 5px;
 	}
 
-	form input[type="text"], form input[type="email"], form textarea {
+	form input[type="text"], form input[type="tel"], form input[type="email"], form textarea {
 		display: block;
 		color: #020202;
 		width: 400px;
@@ -898,7 +905,6 @@
 		margin-bottom: 50px;
 	}
 
-	
 	.footer-container {
 		display: block;
 		align-items: center;
@@ -927,11 +933,6 @@
 		filter: brightness(0.5);
 	}
 
-
-	h10 {
-	  font-size: 1vh;
-	  color: #110a8f;
-	}
   }
 
   
