@@ -60,19 +60,20 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url(Dekstop.png);
+    /* background-image: url(Dekstop.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 80%;
+    background-size: cover; */
+    background-color: #fff;
+    /* width: 80%; */
     margin: 0 auto;
 }
 .back-button {
     display: inline-block;
     background-color: #f8a5c200;
-    color: #ffffff9c;
+    color: #0706069c;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1 rem;
+    font-size: 1.2rem;
     position: relative;
     border-color: #cc2ea5;
     right: 25%;

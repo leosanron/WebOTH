@@ -937,3 +937,70 @@
 
   
   
+
+  .noticias {
+	overflow-x: auto; /* Agrega scroll horizontal si el contenido excede el ancho de la sección */
+	max-width: 80%;
+	margin: 0 auto;
+	margin-bottom: 5%;
+
+  }
+  
+  .cartas {
+	display: flex; /* Crea un contenedor de tipo flex */
+  }
+  
+  .carta {
+	flex: 0 0 auto; /* Establece el tamaño inicial y la capacidad de crecer o disminuir según sea necesario */
+	margin-right: 20px; /* Agrega un espacio entre las cartas */
+	width: 20%;
+  }
+  
+  .carta:last-child {
+	margin-right: 0; /* Elimina el margen a la última carta para evitar un espacio adicional */
+  }
+  
+  .carta img {
+	width: 100%; /* Establece la imagen al 100% del ancho de la carta */
+  }
+  
+  .carta h2 {
+	margin-top: 10px; /* Agrega un espacio entre la imagen y el título */
+	font-size: 20px;
+	color: #fffafa;
+  }
+  .noti h2 {
+	margin-top: 10px; /* Agrega un espacio entre la imagen y el título */
+	font-size: 2rem ;
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 0%;
+  }
+  
+  .carta p {
+	margin-top: 10px; /* Agrega un espacio entre el título y el texto */
+	color: #ffffff;	
+  }
+  /* Para navegadores WebKit */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: #cc2ea5;
+	border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background: #7a1c63;
+  }
+  
+/* Para navegadores Firefox */
+	scrollbar-width: thin;
+	scrollbar-color: #555 #f1f1f1;
+
+/* Para navegadores IE/Edge */
+	-ms-overflow-style: none;
+	scrollbar-width: thin;
+	scrollbar-color: #555 #f1f1f1;
