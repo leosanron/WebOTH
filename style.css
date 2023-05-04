@@ -522,7 +522,7 @@
 	.social-icons a:hover img {
 		filter: brightness(0.5);
 	}
-
+}
 
  /* Estilos para dispositivos móviles */
  @media screen and (max-width: 767px) {
