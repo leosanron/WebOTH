@@ -1,0 +1,3 @@
+Tamaño imagenes 300x200 para carrusel
+tamaño iconos beneficios home 128x128 
+tamaño iconos redes 32x32 

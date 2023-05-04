@@ -437,7 +437,7 @@
 	color: #fffafa;
 	font-weight: bold;
   }
-  .noti h2 {
+  #Noticias h2 {
 	margin-top: 10px; /* Agrega un espacio entre la imagen y el título */
 	font-size: 2rem ;
 	color: #ffffff;
@@ -522,12 +522,6 @@
 	.social-icons a:hover img {
 		filter: brightness(0.5);
 	}
-
-	h10 {
-		font-size: 5vh;
-		color: #d21b0d;
-	  }
-}
 
 
  /* Estilos para dispositivos móviles */
