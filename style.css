@@ -976,6 +976,15 @@
 	margin-bottom: 5%;
 
   }
+
+#Noticias h2 {
+  margin-top: 10px; /* Agrega un espacio entre la imagen y el título */
+  font-size: 2rem ;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0%;
+
+}
   
   .cartas {
 	display: flex; /* Crea un contenedor de tipo flex */
