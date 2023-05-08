@@ -172,7 +172,7 @@ body {
   align-items: center;
   margin: 50px auto;
   height: 150px; /* altura de las cartas */
-  width: 65%;
+  width: 90%;
 }
 
 .card {
@@ -192,7 +192,7 @@ body {
 }
 
 .card-right {
-  flex: 2px; /* ancho de la carta derecha */
+  flex: 1px; /* ancho de la carta derecha */
   height: 100%;
   background-color: #fff;
   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2); /* sombra */
@@ -214,7 +214,7 @@ body {
 }
 
 .card-right .card-info .card-number {
-  font-size: 4rem; /* Cambia el valor para ajustar el tamaño */
+  font-size: 3rem; /* Cambia el valor para ajustar el tamaño */
 }
 
 .card h3 {
@@ -306,6 +306,7 @@ body {
 	background-color: #fff;
 	padding: 50px 0;
 	text-align: center;
+  
 }
 
 .section-3 h2 {
@@ -314,7 +315,7 @@ body {
 }
 
 .section-3 {
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -325,28 +326,29 @@ body {
   margin-bottom: 2rem;
 }
 
-.bloque {
-  width: calc(25% - 1rem);
+.bloque3 {
+  width: 50%;
   margin-bottom: 2rem;
 }
 
-.bloque img {
+.bloque3 img {
   width: 20%;
 }
 
-.bloque h3 {
+.bloque3 h3 {
   font-size: 1.2rem;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 
-.bloque p {
+.bloque3 p {
   font-size: 0.9rem;
   line-height: 1.
 }
 
 /* Estilos para la tercera punto 1
 sección */
+
 .section-31 {
 	background-color: #fff;
 	padding: 50px 0;

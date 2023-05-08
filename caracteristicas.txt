@@ -1,3 +1,5 @@
 Tamaño imagenes 300x200 para carrusel
 tamaño iconos beneficios home 128x128 
 tamaño iconos redes 32x32 
+iconos https://www.flaticon.es/icon-font-gratis/comprobacion-de-lista_3914414
+#F831FF colo rosado 
