@@ -317,6 +317,7 @@ body {
 .section-3 {
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 0;
 }
 
 .bloques-contenedor {
@@ -338,7 +339,7 @@ body {
 .bloque3 h3 {
   font-size: 1.2rem;
   margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 .bloque3 p {
@@ -393,19 +394,33 @@ sección */
 }
 
 
-/* Estilos para la cuarta sección */
+/* Estilos para el boton */
+.section-4 button {
+  background-color: #cc2ea5;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px 60px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 2%;
+  margin-top: 0;
+}
+.section-4 a:hover button {
+  filter: brightness(0.5);
+}
+
 .section-4 {
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
+  margin-bottom: 4%;
 }
-.section-4 h2 {
-  text-align: left;
-  font-size: 1.4rem;
-}
-.section-4 p {
-  text-align: left;
-  font-size: 1.2rem;
-}
+
 
 /* Estilos para la quinta sección */
 .section-5 {
