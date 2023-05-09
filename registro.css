@@ -23,17 +23,19 @@ body {
 
 .container {
 	margin: 0 auto;
-	padding: 30px;
+	padding: 0px;
 	background-color: #ffffff52;
 	border-radius: 10px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 	border: 2px solid #cc2ea5; /* Añade esta línea */
-    margin-top: 10%;
+    margin-top: 1%;
+	align-items: center;
+	align-content: center;
 }
 
 h1 {
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 1%;
     font-size: 2rem;
     color: #cc2ea5;
 }
@@ -86,3 +88,21 @@ input[type="submit"]:hover {
 	background-color:  #7a1c63;
     
 }
+
+.subcontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto ;
+  }
+
+  /* Estilo personalizado para el título del formulario */
+.subcontainer h1 {
+	color: #333;
+	font-size: 28px;
+	margin-bottom: 20px;
+  }
+
+  /* Ejemplo de estilo para el título del formulario */
