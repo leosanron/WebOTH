@@ -990,7 +990,7 @@
   .carta {
 	flex: 0 0 auto; /* Establece el tamaño inicial y la capacidad de crecer o disminuir según sea necesario */
 	margin-right: 20px; /* Agrega un espacio entre las cartas */
-	width: 34%;
+	width: 40%;
   }
   
   .carta:last-child {
@@ -1009,14 +1009,14 @@
   }
   .noti h2 {
 	margin-top: 10px; /* Agrega un espacio entre la imagen y el título */
-	font-size: 2rem ;
+	font-size: 1rem ;
 	color: #ffffff;
 	text-align: center;
 	margin-bottom: 0%;
   }
   
   .carta p {
-	font-size: 1rem;
+	font-size: 0.6rem;
 	margin-top: 10px; /* Agrega un espacio entre el título y el texto */
 	color: #ffffff;	
   }
