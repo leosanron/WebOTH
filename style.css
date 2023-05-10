@@ -1003,7 +1003,7 @@
   
   .carta h2 {
 	margin-top: 10px; /* Agrega un espacio entre la imagen y el título */
-	font-size: 1rem;
+	font-size: 0.75rem;
 	color: #fffafa;
 	font-weight: bold;
   }
