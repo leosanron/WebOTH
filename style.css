@@ -410,6 +410,7 @@
 	max-width: 86%;
 	margin: 0 auto;
 	margin-bottom: 5%;
+	margin-top: 0;
 
   }
   
@@ -437,12 +438,12 @@
 	color: #fffafa;
 	font-weight: bold;
   }
-  #Noticias h2 {
+   #Noticias h2 {
 	margin-top: 10px; /* Agrega un espacio entre la imagen y el título */
 	font-size: 2rem ;
 	color: #ffffff;
 	text-align: center;
-	margin-bottom: 0%;
+	margin-bottom: 0px;
 
   }
   
