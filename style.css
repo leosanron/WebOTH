@@ -12,6 +12,7 @@
 		padding: 0px 0;
 		margin-bottom: 8%;
 		margin-top: 1px;
+		margin-bottom: 20%;
 	}
 
 	header span {
@@ -95,7 +96,7 @@
 
 	h1 span {
 		color: #cc2ea5;
-
+		margin-top: 10%;
 	}
 
 
@@ -111,6 +112,8 @@
 		display: flex; /* Alinear los elementos en línea horizontal */
 		justify-content: center; /* centra la info */
 		color: #ecebf1;
+		margin-top: 5%;
+
 	}
 
 	.header-info li {
@@ -132,6 +135,10 @@
 		margin-top: 5px; /* Añadimos un pequeño margen encima del número */
 	}
 
+	.tittle {
+		margin-top: 10%;
+	}
+
 
 	/* ABOUT US 
 	ABOUT US */
@@ -143,6 +150,7 @@
 		width: 80%;
 		margin: 0 auto;
 		margin-bottom: 4%;
+		margin-top: 10%;
 	}
 	
 	#about-us img {
@@ -165,6 +173,7 @@
 		font-size: 2rem;
 		color:  #cc2ea5;
 	}
+
 
 
 
@@ -652,6 +661,8 @@
 		justify-content: center; /* centra la info */
 		width: 85% ;
 		color: #faf7fa;
+		margin-top: 10%;
+		margin-bottom: 10%;
 	}
 
 	.header-info li {
@@ -693,6 +704,9 @@
 	  .content {
 		padding-top: 100px; /* Ajusta el valor según sea necesario para que no se superponga en la parte superior del encabezado */
 	  }
+	  .tittle {
+		margin-top: 30%;
+	}
 
 
 

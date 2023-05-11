@@ -499,4 +499,37 @@ ol {
 		filter: brightness(0.5);
 	}
   
+  .subcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto ;
+    /* background-image: url(Dekstop\ inver.png);
+    background-size: cover; */
+    }
+  
+    /* Estilo personalizado para el título del formulario */
+  .subcontainer h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    }
+  
+    iframe {
+      margin-top: 0 ;
+      margin-bottom: 0;
+    }
 
+    h3 {
+      font-size: 2rem;
+      text-align: center;
+    }
+    
+    .tit {
+      background-image: url(Dekstop\ inver.png);
+      background-size: cover;
+      color: #fff;
+    }
+    
