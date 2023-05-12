@@ -31,4 +31,4 @@ function animarNumero(numero, inicio, fin, duracion) {
 animarNumero(numero1,valorInicial , 32, duracion);
 animarNumero(numero2, valorInicial, 389, duracion);
 animarNumero(numero3, valorInicial, 500, duracion);
-animarNumero(numero4, valorInicial, 5, duracion);
+animarNumero(numero4, valorInicial, 9, duracion);
