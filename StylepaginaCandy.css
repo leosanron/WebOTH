@@ -525,6 +525,7 @@ ol {
     h3 {
       font-size: 2rem;
       text-align: center;
+      padding-top: 50px;
     }
     
     .tit {
@@ -532,4 +533,3 @@ ol {
       background-size: cover;
       color: #fff;
     }
-    
