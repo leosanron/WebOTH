@@ -121,13 +121,14 @@ body {
   flex: 1;
   margin-right: 5%;
 }
-.section-1 h3 {
+.section-1 h4 {
   width: 100%;
-  margin-bottom: 2px;
-  margin-right: 2px;
-  font-size: 1.5rem;
+  margin-bottom: 2%;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #cc2ea5;
+  font-weight: normal;
 }
-
 .section-1 P {
   width: 100%;
   font-size: 1rem;
@@ -217,7 +218,7 @@ body {
   font-size: 3rem; /* Cambia el valor para ajustar el tamaño */
 }
 
-.card h3 {
+.section-2 h3 {
   margin-top: 0;
   text-align: center;
 }
@@ -522,7 +523,7 @@ ol {
       margin-bottom: 0;
     }
 
-    h3 {
+    .titulo h3 {
       font-size: 2rem;
       text-align: center;
       padding-top: 50px;
