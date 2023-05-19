@@ -1,0 +1,148 @@
+/* Estilos header */
+
+header {
+    background-image: url(Dekstop\ inver.png);
+    background-size: cover;
+    color: #fff;
+    padding: 0 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container {
+    width: 10%;
+  }
+  
+  .logo-container img {
+    width: 70%;
+    height: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    /* text-transform: uppercase; */
+    margin-left: 10px;
+  }
+
+  nav ul li a span {
+    background-color: #cc2ea5;
+    color: #fff;
+    padding: 8%;
+    border-radius: 5px;
+  }
+
+  nav ul li a:hover {
+    color: #cc2ea5;
+  }
+
+
+
+
+
+
+/* GENERAL */
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+  
+  .left-section {
+    width: 55%;
+    margin-right: 10%;
+  }
+  
+  .right-section {
+    width: 35%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+  /* Botones izquierda */
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .button img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .button-content h2 {
+    margin: 0;
+  }
+  
+  .button-content p {
+    margin: 0;
+  }
+  .button-title {
+    background-color: #cc2ea5;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+
+  /* NOTICIAS */
+
+  .bottom-section {
+    border: 1px solid black;
+    padding: 10px;
+    height: 50%;
+    overflow-y: auto;
+    margin-top: 10%;
+  }
+  
+  .carta {
+    display: none;
+  }
+  
+  .carta:nth-child(-n+2) {
+    display: block;
+  }
+  
+  .noticias {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
