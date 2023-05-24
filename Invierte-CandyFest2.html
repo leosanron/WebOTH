@@ -167,7 +167,27 @@
 
 
   <iframe width="560" height="315" src="https://www.youtube.com/watch?v=VBBHwV9oUvs&t=237s&ab_channel=Otherland" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div id="player"></div>
 
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    // Función de inicialización del reproductor de YouTube
+    function onYouTubeIframeAPIReady() {
+      // Crear el reproductor de video
+      var player = new YT.Player('player', {
+        height: '315',
+        width: '560',
+        videoId: 'VBBHwV9oUvs', // ID del video de YouTube
+        playerVars: {
+          autoplay: 1, // Reproducir automáticamente el video
+          controls: 1, // Mostrar controles del reproductor
+          modestbranding: 1, // Mostrar un logo más discreto
+          rel: 0, // No mostrar videos relacionados al final
+          showinfo: 0 // No mostrar información del video
+        }
+      });
+    }
+  </script> 
 
   <div class="section-3">
     <h2>CARACTERISTICAS</h2>
