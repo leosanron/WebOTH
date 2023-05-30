@@ -12,6 +12,7 @@
 		padding: 0px 0;
 		margin-bottom: 8%;
 		margin-top: 1px;
+		margin-bottom: 20%;
 	}
 
 	header span {
@@ -34,13 +35,13 @@
 
 	}
 
-	/* nav ul {
+	nav ul {
 		background-image: url(Dekstop\ inver.png);
 		background-size: cover;
 		list-style: none;
 		margin: 0;
 		padding: 0;
-	} */
+	}
 
 	nav ul li {
 		display: inline-block;
@@ -65,7 +66,14 @@
 		margin: 0;
 		padding: 0;
 	}
+
+	section ul li {
+		margin-bottom: 10px;
+	}
+
+
 	footer {
+
 		color: #fff;
 		padding: 20px;
 		text-align: center;
@@ -90,15 +98,21 @@
 		color: #cc2ea5;
 		margin-top: 10%;
 	}
-	
+
+
 
 
 	/* textos del heder  */
+	header {
+		justify-content: flex-end; /* Alineamos los elementos a los lados */
+		align-items: first baseline; /* Centramos verticalmente los elementos */
+	}
+
 	.header-info {
 		display: flex; /* Alinear los elementos en línea horizontal */
 		justify-content: center; /* centra la info */
 		color: #ecebf1;
-		margin-top: 10%;
+		margin-top: 5%;
 
 	}
 
@@ -122,89 +136,9 @@
 	}
 
 	.tittle {
-		margin-top: 25%;
+		margin-top: 10%;
 	}
 
-	.initial-blo2 img {
-		width: 100%;
-		height: auto;
-		margin-bottom: 18%;
-		margin-top: 15%;
-	}
-	.initial {
-		display: flex; /* Para alinear los elementos horizontalmente dentro de cada li */
-		/* background-image: url(FonHome.png);
-		background-repeat: no-repeat;
-		background-size: cover; */
-	}
-	header h2 {
-		text-align: center;
-		margin: 0 2rem; /* Añade un margen de 200 píxeles a los lados */
-		font-size: 1.5rem;
-		/* font-size: 20px; */ 
-		color: #faf7fa;
-		font-family: sans-serif;
-		margin-top: 2%;	
-	}
-	header {
-		background-image: url(FonHome.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	  
-	  nav {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	  }
-	  
-	  .logo-container {
-		width: 30%;
-	  }
-	  
-	  .logo-container img {
-		width: 30%;
-		height: auto;
-
-	  }
-	  
-	  nav ul {
-		list-style: none;
-		margin: 0;
-		padding: 0; 
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	  }
-	  
-	  nav ul li {
-		display: inline-block;
-		margin-right: 20px;
-		margin-top: 20PX;
-		align-items: center;
-	  }
-	  
-	  nav ul li a {
-		color: #fff;
-		text-decoration: none;
-		font-size: 1.1rem;
-		/* text-transform: uppercase; */
-		margin-left: 10px;
-	  }
-	
-	  nav ul li a span {
-		background-color: #cc2ea5;
-		color: #fff;
-		padding: 8%;
-		border-radius: 5px;
-	  }
-	
-	  nav ul li a:hover {
-		color: #cc2ea5;
-	  }
-	  nav ul {
-		margin-top: 0%;
-	  }
 
 	/* ABOUT US 
 	ABOUT US */
@@ -215,10 +149,13 @@
 		align-items: center;
 		width: 80%;
 		margin: 0 auto;
-		margin-bottom: 0%;
-		margin-top: 1%;
+		margin-bottom: 4%;
+		margin-top: 10%;
 	}
-
+	
+	#about-us img {
+		margin-top: 20px;
+	}
 
 	#about-us h2 {
 		font-size: 2.5rem;
@@ -641,7 +578,7 @@
 	}
 
 	nav ul img {
-		width: 10%;
+		width: 25%;
 		height: auto;
 
 	}
@@ -652,20 +589,12 @@
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		justify-content: space-between;
-
 	}
-
 
 	nav ul li {
 		display: inline-block;
 		margin-right: 2%;
 	}
-	nav ul  {
-		display: inline-block;
-		margin-right: 2%;
-	}
-	
 
 	nav ul li:last-child {
 		margin-right: 0;
@@ -717,15 +646,6 @@
 		font-family: sans-serif;
 		margin-top: 20%;
 		margin-bottom: 10%;
-	}
-	header h2 {
-		text-align: center;
-		margin: 0 2rem; /* Añade un margen de 200 píxeles a los lados */
-		font-size: 1rem;
-		/* font-size: 20px; */ 
-		color: #faf7fa;
-		font-family: sans-serif;
-		margin-top: 2%;	
 	}
 
 	header h1 span {
@@ -781,9 +701,6 @@
 		font-size: 3rem;; /* Ajustamos el tamaño del número */
 		font-weight: bold; /* Ponemos el número en negrita */
 		margin-top: 5px; /* Añadimos un pequeño margen encima del número */
-	}
-	.initial-blo2 img {
-		width: 0;
 	}
 	/* ESTATICO EL HEADER
 	ESTATICO EL HEADER */
@@ -1210,61 +1127,7 @@
 	.social-icons a:hover img {
 		filter: brightness(0.5);
 	}
-	nav {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	  }
-	  
-	  .logo-container {
-		width: 30%;
-	  }
-	  
-	  .logo-container img {
-		width: 70%;
-		height: auto;
-	
-	  }
-	  
-	  nav ul {
-		list-style: none;
-		margin: 0;
-		padding: 0; 
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	  }
-	  
-	  nav ul li {
-		display: inline-block;
-		margin-right: 20px;
-		margin-top: 20PX;
-		align-items: center;
-	  }
-	  
-	  nav ul li a {
-		color: #fff;
-		text-decoration: none;
-		font-size:0.5rem;
-		/* text-transform: uppercase; */
-		margin-left: 10px;
-	  }
-	
-	  nav ul li a span {
-		background-color: #cc2ea5;
-		color: #fff;
-		padding: 8%;
-		border-radius: 5px;
-	  }
-	
-	  nav ul li a:hover {
-		color: #cc2ea5;
-	  }
-	  nav ul {
-		margin-top: 0%;
-	  }
-	
-	  
 
   }
- 
+
+  
