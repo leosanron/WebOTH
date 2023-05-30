@@ -534,3 +534,26 @@ ol {
       background-size: cover;
       color: #fff;
     }
+
+   /*  imagen youtube */
+   .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin: 0 auto;
+  }
+  
+  .button-shadow {
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+  
+  .button-shadow img {
+    display: block;
+    width: 100%; /* Ajusta el ancho de la imagen según tus necesidades */
+    margin: 0 auto; /* Centra la imagen horizontalmente */  
+  }
