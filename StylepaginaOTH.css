@@ -500,4 +500,12 @@ ol {
 		filter: brightness(0.5);
 	}
   
+  .video {
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    
+  }
+  
 
