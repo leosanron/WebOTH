@@ -96,7 +96,7 @@ body {
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  width: 0%;
   margin: 0 auto;
 }
 
@@ -558,8 +558,7 @@ ol {
     margin: 0 auto; /* Centra la imagen horizontalmente */  
   }
 }
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   header {
     background-image: url(Dekstop\ inver.png);
     background-size: cover;
@@ -615,6 +614,9 @@ ol {
     color: #cc2ea5;
   }
 
+
+
+
 body {
 
     font-family: 'Open Sans', sans-serif;
@@ -652,15 +654,12 @@ body {
 .section-1 {
   background-color: #fff;
   display: flex;
-  flex-wrap: wrap;
-  width: 95%;
+  flex-wrap: column;
+  width: 90%;
   margin: 0 auto;
 }
 
-.section-1 .content {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 .section-1 .image-container {
   flex: 1;
@@ -691,12 +690,7 @@ body {
   font-size: 1rem;
 
 }
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+
 
 .section-1 button {
   background-color:  #cc2ea5;
@@ -1115,3 +1109,4 @@ ol {
     margin: 0 auto; /* Centra la imagen horizontalmente */  
   }
 }
+
