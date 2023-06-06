@@ -759,7 +759,7 @@
 	.header-info {
 		display: flex; /* Alinear los elementos en línea horizontal */
 		justify-content: center; /* centra la info */
-		width: 85% ;
+		width: 100% ;
 		color: #faf7fa;
 		margin-top: 10%;
 		margin-bottom: 10%;
@@ -805,22 +805,14 @@
 		margin-top: 15%;
 		padding-top: 10%;
 	  }
-<<<<<<< HEAD
-	  .tittle {
-		margin-top: 30%;
-	}
 	.initial-blo1 {
-		width: 30%;
+		width: 100%;
 	}
 
 
 
 
 
-=======
-	 
-	  
->>>>>>> 1edb28c (fondo inicial pagina home para celular)
 
 	/* ABOUT US 
 	ABOUT US */
@@ -1276,6 +1268,13 @@
 	  nav ul {
 		margin-top: 0%;
 	  }
+	  .initial-blo2 img{
+		width: 0%;
+	  }
+	  .initial-blo2 {
+		wi
+	  }
+
 	
 	  
 
