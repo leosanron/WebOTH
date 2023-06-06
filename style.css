@@ -126,7 +126,7 @@
 	}
 
 	.initial-blo2 img {
-		width: 120%;
+		width: 100%;
 		height: auto;
 		margin-bottom: 18%;
 		margin-top: 15%;
@@ -166,6 +166,7 @@
 	  
 	  .logo-container {
 		width: 30%;
+
 	  }
 	  
 	  .logo-container img {
@@ -628,16 +629,22 @@
 	header {
 		color: #fff;
 		padding: 0px 0;
-		margin-bottom: 1%;
+		margin-bottom: 8%;
 		margin-top: 1px;
 	}
-	
+	header {
+		background-image: url(FonHome.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-top: 0%;
+		
+	}
 	  
 
 	header span {
 		color: #cc2ea5;
 		padding: 0px 0px;
-		margin-bottom: 1%;
+		margin-bottom: 8%;
 	}
 
 	nav ul li a span {
@@ -661,14 +668,6 @@
 		margin: 0;
 		padding: 0;
 		justify-content: space-between;
-
-	}
-	header {
-		background-image: url(FonHome.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		margin-top: 0%;
-		
 	}
 
 
@@ -705,6 +704,11 @@
 		margin: 0;
 		padding: 0;
 	}
+
+	section ul li {
+		margin-bottom: 10px;
+	}
+
 
 	footer {
 
@@ -746,8 +750,11 @@
 	  }
 	  
 	  .header-info li {
-		width: 0%;
+		width: 50%;
 	  }
+
+
+
 
 
 	/* textos del heder  */
@@ -759,7 +766,7 @@
 	.header-info {
 		display: flex; /* Alinear los elementos en línea horizontal */
 		justify-content: center; /* centra la info */
-		width: 100% ;
+		width: 85% ;
 		color: #faf7fa;
 		margin-top: 10%;
 		margin-bottom: 10%;
@@ -789,7 +796,9 @@
 		font-weight: bold; /* Ponemos el número en negrita */
 		margin-top: 5px; /* Añadimos un pequeño margen encima del número */
 	}
-
+	.initial-blo2 img {
+		width: 0;
+	}
 	/* ESTATICO EL HEADER
 	ESTATICO EL HEADER */
 
@@ -801,13 +810,21 @@
 		background-color: #fff;
 		z-index: 9999;
 	  }
-	  .tittle h1 {
-		margin-top: 15%;
-		padding-top: 10%;
+	  
+	  .content {
+		padding-top: 100px; /* Ajusta el valor según sea necesario para que no se superponga en la parte superior del encabezado */
 	  }
-	.initial-blo1 {
-		width: 100%;
+	  .tittle {
+		margin-top: 5%;
 	}
+	.initial-blo1 {
+		padding-top: 2%;
+	}
+	header nav ul{
+		padding-bottom: 2%;
+	  }
+	  
+
 
 
 
@@ -1268,13 +1285,6 @@
 	  nav ul {
 		margin-top: 0%;
 	  }
-	  .initial-blo2 img{
-		width: 0%;
-	  }
-	  .initial-blo2 {
-		wi
-	  }
-
 	
 	  
 
