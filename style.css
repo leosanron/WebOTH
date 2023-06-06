@@ -130,6 +130,12 @@
 		height: auto;
 		margin-bottom: 18%;
 		margin-top: 15%;
+		
+	}
+	.initial-blo2{
+		display: flex;
+        align-items: center;
+		justify-content: center;
 	}
 	.initial {
 		display: flex; /* Para alinear los elementos horizontalmente dentro de cada li */
@@ -622,14 +628,16 @@
 	header {
 		color: #fff;
 		padding: 0px 0;
-		margin-bottom: 8%;
+		margin-bottom: 1%;
 		margin-top: 1px;
 	}
+	
+	  
 
 	header span {
 		color: #cc2ea5;
 		padding: 0px 0px;
-		margin-bottom: 8%;
+		margin-bottom: 1%;
 	}
 
 	nav ul li a span {
@@ -654,6 +662,13 @@
 		padding: 0;
 		justify-content: space-between;
 
+	}
+	header {
+		background-image: url(FonHome.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-top: 0%;
+		
 	}
 
 
@@ -690,11 +705,6 @@
 		margin: 0;
 		padding: 0;
 	}
-
-	section ul li {
-		margin-bottom: 10px;
-	}
-
 
 	footer {
 
@@ -738,9 +748,6 @@
 	  .header-info li {
 		width: 0%;
 	  }
-
-
-
 
 
 	/* textos del heder  */
@@ -794,10 +801,11 @@
 		background-color: #fff;
 		z-index: 9999;
 	  }
-	  
-	  .content {
-		padding-top: 100px; /* Ajusta el valor según sea necesario para que no se superponga en la parte superior del encabezado */
+	  .tittle h1 {
+		margin-top: 15%;
+		padding-top: 10%;
 	  }
+<<<<<<< HEAD
 	  .tittle {
 		margin-top: 30%;
 	}
@@ -809,6 +817,10 @@
 
 
 
+=======
+	 
+	  
+>>>>>>> 1edb28c (fondo inicial pagina home para celular)
 
 	/* ABOUT US 
 	ABOUT US */
