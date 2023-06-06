@@ -126,7 +126,7 @@
 	}
 
 	.initial-blo2 img {
-		width: 100%;
+		width: 120%;
 		height: auto;
 		margin-bottom: 18%;
 		margin-top: 15%;
@@ -736,7 +736,7 @@
 	  }
 	  
 	  .header-info li {
-		width: 50%;
+		width: 0%;
 	  }
 
 
@@ -782,9 +782,7 @@
 		font-weight: bold; /* Ponemos el número en negrita */
 		margin-top: 5px; /* Añadimos un pequeño margen encima del número */
 	}
-	.initial-blo2 img {
-		width: 0;
-	}
+
 	/* ESTATICO EL HEADER
 	ESTATICO EL HEADER */
 
@@ -803,7 +801,6 @@
 	  .tittle {
 		margin-top: 30%;
 	}
-
 
 
 
