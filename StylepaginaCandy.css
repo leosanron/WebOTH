@@ -561,6 +561,19 @@ ol {
     width: 100%; /* Ajusta el ancho de la imagen según tus necesidades */
     margin: 0 auto; /* Centra la imagen horizontalmente */  
   }
+  .section-4 h3 {
+    background-color: #cc2ea5;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 2%;
+    margin-top: 0;
+  }
 }
 @media screen and (max-width: 768px) {
   header {
@@ -1124,6 +1137,19 @@ ol {
     display: block;
     width: 100%; /* Ajusta el ancho de la imagen según tus necesidades */
     margin: 0 auto; /* Centra la imagen horizontalmente */  
+  }
+  .section-4 h3 {
+    background-color: #cc2ea5;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 2%;
+    margin-top: 0;
   }
 }
 
