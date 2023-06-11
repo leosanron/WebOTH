@@ -956,7 +956,7 @@ sección */
 }
 
 .bloque {
-  width: calc(25% - 0.05rem);
+  width: 28%;
   margin-bottom: 1rem;
 }
 
