@@ -86,7 +86,7 @@ body {
     margin-right: 2%;
     margin-left: 2%;
   }
-  
+
   h1 {
     color: rgb(2, 2, 187);
     font-weight: normal;
@@ -101,3 +101,22 @@ body {
     margin-top: 0%;
  }
   
+
+
+ footer {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    text-align: center;
+  }
+  
+  .footer-container p {
+    display: inline-block;
+    margin: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
