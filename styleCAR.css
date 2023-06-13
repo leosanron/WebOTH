@@ -1,0 +1,103 @@
+body {
+    background-color: rgba(170, 172, 170, 0.479);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(38, 36, 182);
+    margin-bottom: 4%;
+  }
+  
+  /* Estilos para la lista de navegación */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para los elementos de la lista de navegación */
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  /* Estilos para los enlaces de la lista de navegación */
+  nav ul li a {
+    color: rgb(221, 221, 221);
+    text-decoration: solid;
+    font-weight: bold;
+
+
+  }
+  
+  /* Estilos para el contenedor del logo */
+  .logo-container {
+    margin-right: 150px;
+  }
+  
+  /* Estilos para la imagen del logo */
+  .logo-container img {
+    width: 80px;
+    height: 80px;
+    order: -1; /* Cambia el orden de la imagen para que aparezca al principio */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  #s1,#s2, #s3, #s4 {
+    text-align: center;
+  }
+  
+  /* Estilos para el título h2 */
+  #s1,#s2, #s3, #s4 h2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  /* Estilos para el contenedor */
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1400px; /* Cambia este valor según tus necesidades */
+    height: auto;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+  }
+  
+  /* Estilos para la clase "izquierda" y "derecha" */
+  .izquierda, .derecha {
+    flex-basis: 40%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  
+  h1 {
+    color: rgb(2, 2, 187);
+    font-weight: normal;
+  }
+
+  h2 {
+    font-weight: bold;
+    color: rgb(1, 1, 136);
+  }
+
+ #s1 {
+    margin-top: 0%;
+ }
+  
