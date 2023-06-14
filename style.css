@@ -34,13 +34,6 @@
 
 	}
 
-	/* nav ul {
-		background-image: url(Dekstop\ inver.png);
-		background-size: cover;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	} */
 
 	nav ul li {
 		display: inline-block;
@@ -475,6 +468,10 @@
 		filter: brightness(0.5);
 		
 	}
+	.Formulario {
+		width: 60%;
+
+	}
 
 
 
@@ -617,7 +614,6 @@
 	}
 }
 
- /* Estilos para dispositivos móviles */
  @media screen and (max-width: 767px) {
 	body {
 		font-family: Arial, sans-serif;
