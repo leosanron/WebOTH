@@ -575,7 +575,59 @@ ol {
     margin-bottom: 2%;
     margin-top: 0;
   }
-}
+
+
+
+
+
+
+
+    .faq-sec{
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 2%;
+    }
+    .faq-bar {
+      cursor: pointer;
+      padding: 1%;
+      width:  60%;
+      margin-left: auto; /* Centra horizontalmente */
+      margin-right: auto; /* Centra horizontalmente */
+      border: 2px solid transparent; /* Borde inicialmente transparente */
+      border-color: #cc2ea5; /* Color de borde rosado */
+      border-radius: 10px; /* Borde redondeado */
+    }
+    
+    .faq-bar:hover {
+      cursor: pointer;
+      border-color: #ff69b4; /* Color de borde rosado */
+      background-color: #ff69b4;
+    }
+    
+    .faq-content {
+      display: none;
+      background-color: #cc2ea400;
+      padding: 20px;
+      margin-top: 20px;
+      width: 55%; /* Ocupa el 60% del ancho de la página */
+      margin-left: auto; /* Centra horizontalmente */
+      margin-right: auto; /* Centra horizontalmente */
+    }
+    
+    .faq-item {
+      margin-bottom: 20px;
+      ; /* Centra el contenido */
+    }
+    
+    .faq-item h3 {
+      margin: 0;
+    }
+    
+    .faq-item p {
+      margin-top: 10px;
+    }
+ }
+
 @media screen and (max-width: 768px) {
   header {
     background-image: url(Dekstop\ inver.png);
@@ -1151,6 +1203,50 @@ ol {
     border: none;
     margin-bottom: 2%;
     margin-top: 0;
+  }
+  .faq-sec{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 6%;
+  }
+  .faq-bar {
+    cursor: pointer;
+    padding: 1%;
+    width:  80%;
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+    border: 2px solid transparent; /* Borde inicialmente transparente */
+    border-color: #cc2ea5; /* Color de borde rosado */
+    border-radius: 10px; /* Borde redondeado */
+  }
+  
+  .faq-bar:hover {
+    cursor: pointer;
+    border-color: #ff69b4; /* Color de borde rosado */
+    background-color: #ff69b4;
+  }
+  
+  .faq-content {
+    display: none;
+    background-color: #cc2ea400;
+    padding: 20px;
+    margin-top: 20px;
+    width: 70%; /* Ocupa el 60% del ancho de la página */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    ; /* Centra el contenido */
+  }
+  
+  .faq-item h3 {
+    margin: 0;
+  }
+  
+  .faq-item p {
+    margin-top: 10px;
   }
 }
 

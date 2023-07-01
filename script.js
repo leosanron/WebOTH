@@ -38,3 +38,9 @@ function scrollToSection() {
   var section = document.querySelector('.section-4');
   section.scrollIntoView({ behavior: 'smooth' });
 }
+
+
+function toggleFaqContent() {
+  var faqContent = document.querySelector('.faq-content');
+  faqContent.style.display = faqContent.style.display === 'none' ? 'block' : 'none';
+}
