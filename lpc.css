@@ -210,7 +210,13 @@ header {
 /* SECTION 3 */
 
 .seccion3 {
-  padding: 40px;
+  padding-top: 1%;
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+}
+.seccion3-1 {
+  padding-top: 2%;
   text-align: left;
   width: 70%;
   margin: 0 auto;
@@ -220,6 +226,13 @@ header {
   color: rgb(7, 7, 7);
   font-size: 1.9vw;
   font-weight: 200;
+}
+.secmi h1 {
+  
+  text-align: center;
+  color: rgb(7, 7, 7);
+  font-size: 2.5vw;
+  font-weight: 600;
 }
 
 
