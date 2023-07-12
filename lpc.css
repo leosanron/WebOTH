@@ -82,7 +82,6 @@ header {
     padding: 30px;
     position: relative;
     bottom: 10px;
-    margin-top: 50px;
 	}
 	
 	.footer-container {
@@ -284,7 +283,84 @@ header {
   border-radius: 50px 50px 50px 50px;
 }
 
+.seccion5 h2 {
+  color: rgb(7, 7, 7);
+  font-size: 2.2vw;
+  font-weight: 400;
+  text-align: center;
+}
+.seccion5 h2 {
+  color: rgb(7, 7, 7);
+  font-size: 2.2vw;
+  font-weight: 400;
+  text-align: center;
+}
+
+.seccion5 {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.seccion5 h3 {
+  color: rgb(7, 7, 7);
+  font-size: 1.65vw;
+  font-weight: 200;
+  text-align: center;
+}
+
+.seccion6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 45%;
+}
+
+/* SECCION 7 */
+
+.seccion7 {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
 
 
 
+.contenido3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.imagen-izquierda3 {
+  width: 40%;
+  margin-top: 5%;
+}
+
+.imagen-izquierda3 img {
+  width: 80%;
+  height: auto;
+}
+
+.texto3 {
+  width: 50%;
+  font-size: 2vw;
+  position: relative;
+  z-index: 2;
+  color: #070505;
+  font-weight: 800;
+  text-align: left;
+}
+.seccion2 h2 {
+  color: rgb(82, 81, 81);
+  font-size: 1.7vw;
+  font-weight: 200;
+}
+
+.sec7 {
+  background-color: #f0ecfc;
+}
+.secmi {
+  background-color: #f0ecfc;
+}
